@@ -2,8 +2,8 @@
 #include <stdlib.h>
 #include <time.h>
 /**
-* main - check if the a random number is positive or negative
-* Return: 0 if error
+ * main - check if the a random number is positive or negative
+ * Return: 0 if error
 */
 
 int main(void)
