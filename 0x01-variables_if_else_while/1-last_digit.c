@@ -3,24 +3,31 @@
 #include <time.h>
 
 /**
- * main - check ir the random number is positive or negative
- * Return: 0 if error
-*/
+ * main - Determines if n is either greater than 5, is less than 6, or is 0
+ *
+ * Return: Always 0 (Success)
+ */
+
 int main(void)
 {
-	int n;
-	int nLast;
+	int n, l;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	nLast = n % 10;
-
-	if (nLast > 5)
-		printf("Last digit of %d is %d and is greater than 5\n", n, nLast);
-	else if (nLast == 0)
-		printf("Last digit of %d and %d and is less than 6 and 0\n", n, nLast);
+	l = n % 10;
+	if (l > 5)
+	{
+		printf("Last digit of %d is %d and is greater than 5\n", n, l);
+	}
+	else if (l == 0)
+	{
+		printf("Last digit of %d is %d and is 0\n", n, l);
+	}
 	else
-		printf("Last digit of %d is %d and is 0\n", n, nLast);
+	{
+
+		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, l);
+	}
 
 	return (0);
 }
