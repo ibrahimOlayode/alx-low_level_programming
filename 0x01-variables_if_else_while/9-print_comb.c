@@ -1,8 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - prints numbers 0 - 9 using ASCII with commas and 
- spaces
+ * main - prints numbers 0 - 9 using ASCII with commas and spaces
  *
  * Return: Always 0 (Success)
  */
