@@ -4,7 +4,7 @@
  * main - Prints the first 98 Fibonacci numbers
  *
  * Return: Always 0
- */
+*/
 
 int main(void)
 {
@@ -44,9 +44,7 @@ int main(void)
 			n22 = (fn2 % 1000000000);
 		}
 		if (((n1 + n2) < 0) && boolean == 1)
-		{
 			boolean = 0;
-		}
 	}
 	printf("\n");
 	return (0);
