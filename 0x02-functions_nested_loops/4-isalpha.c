@@ -1,4 +1,4 @@
-#include "main"
+#include "main.h"
 
 /**
  * _isalpha - Gives 1 if the input is a letter Another case, givess 0
