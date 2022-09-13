@@ -5,7 +5,7 @@
  * main - Prints putchar with an underscore at the beginning
  *
  * Return: Always 0 (Success)
- */
+*/
 
 int main(void)
 {
