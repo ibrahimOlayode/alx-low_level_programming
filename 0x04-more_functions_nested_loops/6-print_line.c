@@ -1,18 +1,19 @@
 #include "main.h"
 
 /**
- * Write a function that draws a straight line in the terminal
+ * print_line - prints straight line n times
+ *@n: times straight line is printed
  *
- * Return 0 if success
+ * Return: no return
  */
 
 void print_line(int n)
 {
 	int m;
 
-	for(m = 0; m < n; m++)
+	for (m = 0; m < n; m++)
 	{
 		_putchar(95);
 	}
-	_putchar('\n')
-)
+	_putchar('\n');
+}
