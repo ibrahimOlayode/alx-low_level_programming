@@ -2,8 +2,8 @@
 
 /**
  * print_square - prints squares using hashtags
- *
- * Return 0 if success
+ * @size: size of the square.
+ * Return: no return.
  */
 
 void print_square(int size)
