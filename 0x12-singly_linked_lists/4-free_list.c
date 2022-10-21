@@ -1,15 +1,13 @@
-#include <stdlib.h>
 #include "lists.h"
 
 /**
-  * free_list - Frees a linked list.
-  * @head: The pointer to the first node of linked list
-  *
-  * Return: Nothing
-  */
+ * free_list - free linked list
+ * @head: pointer to the linked list
+ */
+
 void free_list(list_t *head)
 {
-	list_t *temp;
+	list_t *tmp;
 
 	while (head)
 	{
@@ -18,6 +16,4 @@ void free_list(list_t *head)
 		free(head);
 		head = tmp;
 	}
-
-	free(head);
 }
